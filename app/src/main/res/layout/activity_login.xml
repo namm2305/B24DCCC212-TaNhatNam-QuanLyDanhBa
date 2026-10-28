@@ -1,0 +1,20 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/page" android:fillViewport="true">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+<Space android:layout_width="1dp" android:layout_height="36dp"/>
+<ImageView android:layout_width="80dp" android:layout_height="80dp" android:layout_gravity="center_horizontal" android:src="@drawable/ic_contacts" android:contentDescription="@string/ui_1"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ui_2" style="@style/ScreenTitle" android:gravity="center"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ui_3" android:gravity="center" android:textSize="16sp" android:layout_marginTop="8dp"/>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:background="@drawable/card" android:padding="20dp" android:orientation="vertical">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ui_4" style="@style/FieldLabel"/>
+<EditText android:id="@+id/username" style="@style/FormInput" android:hint="@string/ui_5" android:inputType="text" android:autofillHints="username"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ui_6" style="@style/FieldLabel"/>
+<EditText android:id="@+id/password" style="@style/FormInput" android:hint="@string/ui_7" android:inputType="textPassword" android:autofillHints="password" android:saveEnabled="false"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/loginError" android:textColor="@color/danger" android:accessibilityLiveRegion="polite" android:layout_marginTop="12dp"/>
+<com.google.android.material.button.MaterialButton android:id="@+id/loginButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ui_8" />
+<com.google.android.material.button.MaterialButton android:id="@+id/registerLink"
+    style="@style/Widget.Material3.Button.TextButton"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:minHeight="48dp" android:text="@string/register_link"/>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

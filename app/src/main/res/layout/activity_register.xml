@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/page" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <TextView style="@style/ScreenTitle" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="@string/register_title"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/register_description"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:background="@drawable/card" android:padding="20dp"
+            android:orientation="vertical">
+            <TextView style="@style/FieldLabel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ui_21" android:labelFor="@id/registerFullName"/>
+            <EditText android:id="@+id/registerFullName" style="@style/FormInput" android:hint="@string/ui_22" android:inputType="textPersonName" android:autofillHints="name"/>
+            <TextView style="@style/FieldLabel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ui_4" android:labelFor="@id/registerUsername"/>
+            <EditText android:id="@+id/registerUsername" style="@style/FormInput" android:hint="@string/ui_5" android:inputType="text" android:autofillHints="newUsername"/>
+            <TextView style="@style/FieldLabel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ui_6" android:labelFor="@id/registerPassword"/>
+            <EditText android:id="@+id/registerPassword" style="@style/FormInput" android:hint="@string/password_hint" android:inputType="textPassword" android:autofillHints="newPassword" android:saveEnabled="false"/>
+            <TextView style="@style/FieldLabel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/confirm_password" android:labelFor="@id/confirmPassword"/>
+            <EditText android:id="@+id/confirmPassword" style="@style/FormInput" android:hint="@string/confirm_password" android:inputType="textPassword" android:autofillHints="newPassword" android:saveEnabled="false"/>
+            <com.google.android.material.button.MaterialButton android:id="@+id/registerButton"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="24dp" android:text="@string/register_title"/>
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton android:id="@+id/backToLogin"
+            style="@style/Widget.Material3.Button.TextButton" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/back_to_login"/>
+    </LinearLayout>
+</ScrollView>

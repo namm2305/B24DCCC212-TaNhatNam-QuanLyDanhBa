@@ -1,0 +1,21 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/page" android:fillViewport="true">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ui_33" style="@style/ScreenTitle"/>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:background="@drawable/card" android:padding="20dp" android:orientation="vertical">
+<TextView android:id="@+id/avatar" android:layout_width="88dp" android:layout_height="88dp" android:layout_gravity="center_horizontal" android:gravity="center" android:textColor="#FFFFFF" android:textSize="30sp" android:textStyle="bold" android:importantForAccessibility="no"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/contactName" android:gravity="center" android:layout_marginTop="16dp" android:textSize="24sp" android:textStyle="bold" android:textColor="@color/ink"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ui_23" style="@style/FieldLabel"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/contactPhone" android:textSize="20sp" android:textColor="@color/teal"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ui_25" style="@style/FieldLabel"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/contactGroup" android:textSize="17sp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ui_26" style="@style/FieldLabel"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/contactGender" android:textSize="17sp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ui_30" style="@style/FieldLabel"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/contactNote" android:textSize="16sp"/>
+<CheckBox android:id="@+id/favorite" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:layout_marginTop="16dp" android:text="@string/ui_12"/>
+</LinearLayout>
+<com.google.android.material.button.MaterialButton android:id="@+id/callButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ui_34" android:layout_marginTop="20dp"/>
+<com.google.android.material.button.MaterialButton android:id="@+id/backButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ui_35" style="@style/Widget.Material3.Button.OutlinedButton"/>
+<com.google.android.material.button.MaterialButton android:id="@+id/deleteButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ui_36" android:backgroundTint="@color/danger"/>
+</LinearLayout>
+</ScrollView>

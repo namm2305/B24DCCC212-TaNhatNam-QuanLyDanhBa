@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:padding="16dp" android:background="@drawable/card">
+<TextView android:id="@+id/avatar" android:layout_width="52dp" android:layout_height="52dp" android:layout_gravity="center_horizontal" android:gravity="center" android:textColor="#FFFFFF" android:textSize="30sp" android:textStyle="bold" android:importantForAccessibility="no"/>
+<LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="14dp" android:orientation="vertical">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/contactName" android:textSize="17sp" android:textStyle="bold" android:textColor="@color/ink"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/contactPhone" android:layout_marginTop="5dp" android:textSize="15sp"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:id="@+id/contactGroup" android:layout_marginTop="5dp" android:textColor="@color/teal" android:textSize="13sp"/>
+</LinearLayout>
+<TextView android:id="@+id/star" android:layout_width="32dp" android:layout_height="wrap_content" android:text="@string/ui_16" android:textColor="#E7A323" android:textSize="26sp" android:contentDescription="@string/ui_17"/>
+</LinearLayout>

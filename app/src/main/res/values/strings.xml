@@ -1,0 +1,64 @@
+<resources>
+<string name="app_name">Quản lý danh bạ liên hệ</string>
+<string-array name="contact_groups">
+<item>Gia đình</item>
+<item>Bạn bè</item>
+<item>Công việc</item>
+<item>Khác</item>
+</string-array>
+<string name="ui_1">Biểu tượng danh bạ</string>
+<string name="ui_2">Danh bạ</string>
+<string name="ui_3">Đăng nhập để tiếp tục</string>
+<string name="ui_4">Tên đăng nhập</string>
+<string name="ui_5">Nhập tên đăng nhập</string>
+<string name="ui_6">Mật khẩu</string>
+<string name="ui_7">Nhập mật khẩu</string>
+<string name="ui_8">Đăng nhập</string>
+<string name="ui_9">Danh bạ của tôi</string>
+<string name="ui_10">Kết nối với những người bạn quan tâm</string>
+<string name="ui_11">Tổng liên hệ</string>
+<string name="ui_12">Yêu thích</string>
+<string name="ui_13">TẤT CẢ LIÊN HỆ</string>
+<string name="ui_14">Chưa có liên hệ.\nNhấn + Thêm liên hệ để bắt đầu.</string>
+<string name="ui_15">+ Thêm liên hệ</string>
+<string name="ui_16">★</string>
+<string name="ui_17">Liên hệ yêu thích</string>
+<string name="ui_18">‹ Quay lại</string>
+<string name="ui_19">Thêm liên hệ</string>
+<string name="ui_20">Lưu thông tin người bạn muốn kết nối</string>
+<string name="ui_21">Họ và tên</string>
+<string name="ui_22">Nhập họ và tên</string>
+<string name="ui_23">Số điện thoại</string>
+<string name="ui_24">Ví dụ: 0901234567</string>
+<string name="ui_25">Nhóm liên hệ</string>
+<string name="ui_26">Giới tính</string>
+<string name="ui_27">Nam</string>
+<string name="ui_28">Nữ</string>
+<string name="ui_29">Khác</string>
+<string name="ui_30">Ghi chú</string>
+<string name="ui_31">Thêm ghi chú về liên hệ</string>
+<string name="ui_32">Lưu liên hệ</string>
+<string name="ui_33">Chi tiết liên hệ</string>
+<string name="ui_34">Gọi điện</string>
+<string name="ui_35">Quay lại</string>
+<string name="ui_36">Xóa liên hệ</string>
+<string name="register_link">Chưa có tài khoản? Đăng ký ngay</string>
+<string name="register_title">Đăng ký</string>
+<string name="register_description">Tạo tài khoản để sử dụng danh bạ</string>
+<string name="confirm_password">Xác nhận mật khẩu</string>
+<string name="password_hint">Ít nhất 6 ký tự</string>
+<string name="back_to_login">Quay lại đăng nhập</string>
+<string name="registration_success">Đăng ký thành công! Vui lòng đăng nhập.</string>
+<string name="name_required">Vui lòng nhập họ tên</string>
+<string name="username_required">Vui lòng nhập tên đăng nhập</string>
+<string name="password_required">Vui lòng nhập mật khẩu</string>
+<string name="confirm_required">Vui lòng xác nhận mật khẩu</string>
+<string name="password_short">Mật khẩu phải có ít nhất 6 ký tự</string>
+<string name="password_mismatch">Mật khẩu xác nhận không khớp</string>
+<string name="username_duplicate">Tên đăng nhập đã tồn tại</string>
+<string name="auth_unavailable">Không thể xử lý tài khoản. Vui lòng thử lại.</string>
+<string name="auth_processing">Đang xử lý…</string>
+<string name="logout">Đăng xuất</string>
+<string name="logout_confirmation">Bạn có chắc chắn muốn đăng xuất không?</string>
+<string name="cancel_logout">Hủy</string>
+</resources>

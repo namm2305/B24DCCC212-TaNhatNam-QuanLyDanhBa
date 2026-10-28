@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Không đưa thông tin xác thực của bài thực hành vào bản sao lưu. -->
+    <exclude domain="sharedpref" path="registered_accounts.xml"/>
+</full-backup-content>
